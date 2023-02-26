@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="end-game-menu" id="end-game-menu">
+      <h1>Game Over</h1>
+      <p> Score: <span id="end-game-score"></span></p>
+      <p> Highscore: <span id="high-score"></span></p>
+      <button id="retry">Retry</button>
+    </div>
+    <div class="game">
+      <div class="score">Score: <span id="score">0</span></div>
+      <canvas id="canvas" width="300" height="300"></canvas>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
